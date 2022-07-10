@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <script src="app.js"></script>
     <header>
       <h1>animals page</h1>
       <nav>
@@ -22,6 +23,21 @@
           <li><a href="#">Feline</a></li>
           <li><a href="#">Ursus</a></li>
         </ul>
+        <script>
+          let yourname = prompt("Teacher or Student?");
+
+          if (yourname === "Teacher") {
+            console.log("Please give me an A+!!");
+            document.write("Please give me an A!");
+          } else {
+            console.log("Nice dude!");
+          }
+        </script>
+
+        <script>
+          let username = prompt("Who goes there?");
+          document.write("Nice to meet you," + username);
+        </script>
       </nav>
     </header>
     <main>
@@ -37,23 +53,30 @@
         <ul>
           <li>
             <img
-              src="https://placekitten.com/640/360"
+              src="https://placekitten.com/640/360
+            "
             />
             <p>Cat</p>
           </li>
           <li>
             <img
-              src="https://loremflickr.com/640/360"
+              src="https://loremflickr.com/640/360
+            "
             />
             <p>Bobcat</p>
           </li>
           <li>
             <img
-              src="https://placebear.com/640/360"
+              src="https://placebear.com/640/360
+            "
             />
             <p>Bear</p>
           </li>
         </ul>
+        <script>
+          let answer = prompt("Cats or Dogs?");
+          document.write("Well that's nice Mr," + answer);
+        </script>
       </section>
     </main>
     <footer>
